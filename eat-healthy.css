@@ -92,6 +92,34 @@ header {
   color: #18191f;
   padding-bottom: 15px;
 }
+/* Recipie section  */
+.RECIPIE {
+  width: 100%;
+  height: 350px;
+  border: 5px solid rgb(21, 19, 139);
+  margin-top: 30px;
+}
+.Recipie-info {
+  border: 1px solid saddlebrown;
+  text-align: center;
+  width: 60%;
+  height: 150px;
+  align-content: center;
+  justify-self: center;
+  padding: 10px;
+}
+.recipie-info-title{
+  font-size: 2rem;
+  font-weight: bold;
+  color: #676767;
+}
+.recipie-info-title-p{
+  font-size: 1rem;
+  color: #252525;
+}
+.recipie-card img {
+  width: 200px;
+}
 /* Responsive for mobile devices */
 @media screen and (max-width: 576px) {
   /* Header section */
