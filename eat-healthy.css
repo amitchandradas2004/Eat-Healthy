@@ -54,6 +54,44 @@ header {
   height: 300px;
   /* position: absolute; */
 }
+/* About me section  */
+.About-me {
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  align-self: center;
+  gap: 0px;
+  width: 100%;
+  height: 300px;
+  background: url(images/shapes/7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about {
+  width: 40%;
+  height: 300px;
+  text-align: center;
+  align-content: center;
+}
+.about img {
+  width: 60%;
+  height: 300px;
+  padding-top: 20px;
+}
+.about-info {
+  width: 40%;
+  align-content: center;
+}
+.about-title {
+  font-size: 2rem;
+  color: #707070;
+  padding-bottom: 15px;
+}
+.about-paragraph {
+  font-size: 1rem;
+  color: #18191f;
+  padding-bottom: 15px;
+}
 /* Responsive for mobile devices */
 @media screen and (max-width: 576px) {
   header {
