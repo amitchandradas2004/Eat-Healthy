@@ -95,12 +95,10 @@ header {
 /* Recipie section  */
 .RECIPIE {
   width: 100%;
-  height: 350px;
-  border: 5px solid rgb(21, 19, 139);
+  /* height: 100%; */
   margin-top: 30px;
 }
 .Recipie-info {
-  border: 1px solid saddlebrown;
   text-align: center;
   width: 60%;
   height: 150px;
@@ -108,17 +106,33 @@ header {
   justify-self: center;
   padding: 10px;
 }
-.recipie-info-title{
+.recipie-info-title {
   font-size: 2rem;
   font-weight: bold;
   color: #676767;
 }
-.recipie-info-title-p{
+.recipie-info-title-p {
   font-size: 1rem;
   color: #252525;
 }
+.recipie {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.recipie-card {
+  width: 40%;
+  height: 330px;
+  border-radius: 30px;
+  padding: 10px 0;
+  text-align: center;
+  height: 110%;
+  box-shadow: 1px 1px 2px 2px rgb(220, 224, 223);
+}
 .recipie-card img {
-  width: 200px;
+  width: 90%;
+  height: 200px;
 }
 /* Responsive for mobile devices */
 @media screen and (max-width: 576px) {
