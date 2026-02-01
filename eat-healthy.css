@@ -134,6 +134,27 @@ header {
   width: 90%;
   height: 200px;
 }
+.Followers{
+  display: flex;
+  width: 82%;
+  height: 100px;
+  justify-self: center;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  border-radius: 20px;
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1);
+  margin: 30px auto;
+}
+.f-title{
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.f-folowers{
+  color: #18191F;
+  font-size: 1rem;
+}
 /* Responsive for mobile devices */
 @media screen and (max-width: 576px) {
   /* Header section */
